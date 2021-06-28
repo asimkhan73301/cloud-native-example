@@ -40,7 +40,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           load: true
-          tags: django-dockerized-app:v1.0.2
+          tags: asimkhan73301/django-dockerized-app:v1.0.2
       -
         name: "Push to Docker Hub"
         run: docker push ${{ env.IMAGE }}:${{ env.GIT_SHA }}
