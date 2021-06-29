@@ -40,5 +40,5 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: asimkhan73301/django-dockerized-app:v1.0.2
+          tags: asimkhan73301/django-dockerized-app:v1.0.3
 
